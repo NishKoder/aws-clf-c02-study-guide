@@ -29,49 +29,6 @@ This comprehensive study guide is designed specifically for IT professionals pre
 - **Cost**: $100 USD
 - **Validity**: 3 years
 
-## 📚 Table of Contents
-
-### [Chapter 1: AWS Cloud Overview](chapters/chapter-01-aws-cloud-overview.md)
-- AWS fundamentals and core purpose
-- Benefits of cloud computing
-- AWS global infrastructure
-- Shared responsibility model
-- Core services overview (EC2, S3, IAM, Lambda, RDS)
-- **Lab**: Setting up AWS Free Tier account and console navigation
-- **Scenario**: Small startup's AWS implementation journey
-
-### [Chapter 2: AWS Core Services](chapters/chapter-02-aws-compute-services.md)
-- Compute services deep dive
-- Storage solutions and best practices
-- Database services comparison
-- Networking fundamentals
-- **Lab**: Deploying a web application architecture
-- **Scenario**: E-commerce platform migration
-
-### [Chapter 3: Security and Compliance](chapters/chapter-03-security-compliance.md) *(Coming Soon)*
-- AWS security services
-- Identity and access management
-- Compliance frameworks
-- Data protection strategies
-- **Lab**: Implementing security best practices
-- **Scenario**: Healthcare data compliance implementation
-
-### [Chapter 4: Pricing and Billing](chapters/chapter-04-pricing-billing.md) *(Coming Soon)*
-- AWS pricing models
-- Cost optimization strategies
-- Billing and cost management tools
-- Reserved instances and savings plans
-- **Lab**: Setting up cost monitoring and budgets
-- **Scenario**: Enterprise cost optimization project
-
-### [Chapter 5: Support and Architecture](chapters/chapter-05-support-architecture.md) *(Coming Soon)*
-- AWS support plans
-- Well-architected framework
-- Deployment models
-- Migration strategies
-- **Lab**: Designing a well-architected solution
-- **Scenario**: Legacy system modernization
-
 ## 🚀 Quick Start
 
 ### Prerequisites
