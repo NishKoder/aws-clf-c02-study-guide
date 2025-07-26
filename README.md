@@ -40,7 +40,7 @@ This comprehensive study guide is designed specifically for IT professionals pre
 - **Lab**: Setting up AWS Free Tier account and console navigation
 - **Scenario**: Small startup's AWS implementation journey
 
-### [Chapter 2: AWS Core Services](chapters/chapter-02-core-services.md) *(Coming Soon)*
+### [Chapter 2: AWS Core Services](chapters/chapter-02-aws-compute-services.md)
 - Compute services deep dive
 - Storage solutions and best practices
 - Database services comparison
