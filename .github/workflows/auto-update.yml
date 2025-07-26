@@ -1,0 +1,36 @@
+name: Auto Update
+
+on:
+  schedule:
+    # Run weekly on Sundays at 2 AM UTC
+    - cron: '0 2 * * 0'
+  workflow_dispatch:
+
+jobs:
+  update-aws-services:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+    
+    - name: Install dependencies
+      run: |
+        pip install boto3 requests
+    
+    - name: Update AWS service information
+      run: |
+        python scripts/utilities/update-aws-services.py
+    
+    - name: Create Pull Request
+      uses: peter-evans/create-pull-request@v5
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        commit-message: "Auto-update AWS service information"
+        title: "Auto-update AWS service information"
+        body: "Automated update of AWS service information and pricing"
+        branch: "auto-update/aws-services"

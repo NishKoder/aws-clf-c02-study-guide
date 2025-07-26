@@ -1,0 +1,36 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "words": [
+    "AWS",
+    "CLF",
+    "IAM",
+    "VPC",
+    "EC2",
+    "S3",
+    "RDS",
+    "DynamoDB",
+    "CloudFront",
+    "Lambda",
+    "CloudWatch",
+    "SageMaker",
+    "Redshift",
+    "GitHub",
+    "README",
+    "DevOps",
+    "GitOps",
+    "DevSecOps",
+    "serverless",
+    "microservices",
+    "containerization"
+  ],
+  "flagWords": [],
+  "ignoreWords": [],
+  "import": [],
+  "dictionaries": [
+    "en_US",
+    "companies",
+    "softwareTerms",
+    "misc"
+  ]
+}
